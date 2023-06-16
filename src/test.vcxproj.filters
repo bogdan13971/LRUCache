@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\projects\LRUCache\src\Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\projects\LRUCache\include\LRUCache\Cache.hpp">
+      <Filter>TREE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\LRUCache\include\LRUCache\ILRUContainer.hpp">
+      <Filter>TREE</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\LRUCache\src\LRUCache.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\LRUCache\src\LayeredLRUCache.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\LRUCache\src\Promoter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\LRUCache\src\container\ArrayLRUContainer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\LRUCache\src\container\ListLRUContainer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\projects\LRUCache\src\container\VectorLRUContainer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\projects\LRUCache\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{46AAB5AA-D413-356A-8BBB-2809A4EB3BCC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{8B3E55B1-1CD3-39F3-9675-561FE4B88410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TREE">
+      <UniqueIdentifier>{DD27855A-164F-3CCB-A87D-1EA0A2B0B94D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
