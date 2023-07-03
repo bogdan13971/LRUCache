@@ -5,6 +5,7 @@ Simple C++ static library implementing a LRU cache.
 The LRU cache works with an underlying LRU container. The implemented LRU containers are **LIST**, **VECTOR** and **ARRAY**. An interface for a LRU container is also exposed for further extension.
 There is also a two-layered LRU cache that uses 2 containers. This can be customised with a _Promoter_ that handles the LRU policy between the 2 layers.
 Tested with Google tests.
+The containers and cache only work for **COPYABLE** objects.
 
 ## Usage
 Use **CacheHelper** to simplify creation of containers and cache.
@@ -28,7 +29,7 @@ The **get** operation is used to retrieve a value by key from the cache or modif
 The **put** operation inserts or moves a value with a corresponding key. If the key already exists, putting a value with the same key doesn't to anything (use _contains_ to check).
 
 ```cpp
-//copyable and optionally movable
+//must be copyable
 struct A{};
 A a1;
 
