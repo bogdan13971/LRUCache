@@ -1,7 +1,7 @@
 #pragma once
 
-#include "helpers/ContainerTypeHelper.hpp"
-#include "Promoter.hpp"
+#include "LRUCache/helpers/ContainerTypeHelper.hpp"
+#include "LRUCache/Promoter.hpp"
 
 #include <utility>
 

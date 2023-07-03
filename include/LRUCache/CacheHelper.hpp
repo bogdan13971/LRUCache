@@ -1,13 +1,13 @@
 #pragma once
 
-#include <container/ArrayLRUContainer.hpp>
-#include <container/ListLRUContainer.hpp>
-#include <container/VectorLRUContainer.hpp>
+#include "LRUCache/container/ArrayLRUContainer.hpp"
+#include "LRUCache/container/ListLRUContainer.hpp"
+#include "LRUCache/container/VectorLRUContainer.hpp"
 
-#include "helpers/ContainerTypeHelper.hpp"
+#include "LRUCache/helpers/ContainerTypeHelper.hpp"
 
-#include "cache/LRUCache.hpp"
-#include "cache/LayeredLRUCache.hpp"
+#include "LRUCache/cache/LRUCache.hpp"
+#include "LRUCache/cache/LayeredLRUCache.hpp"
 
 namespace cache
 {

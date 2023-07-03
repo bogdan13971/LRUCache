@@ -1,6 +1,6 @@
 #pragma once
 
-#include "helpers/ContainerTypeHelper.hpp"
+#include "LRUCache/helpers/ContainerTypeHelper.hpp"
 
 namespace cache
 {
@@ -20,6 +20,13 @@ private:
 	C container;
 
 public:
+	LRUCache() = default;
+	LRUCache(const LRUCache&) = delete;
+	LRUCache& operator=(const LRUCache&) = delete;
+	LRUCache(LRUCache&&) = default;
+	LRUCache& operator=(LRUCache&&) = default;
+	~LRUCache() = default;
+
 	bool contains(container::Key key) const
 	{
 		return container.contains(key);

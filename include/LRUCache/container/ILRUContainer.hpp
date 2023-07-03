@@ -23,6 +23,11 @@ class ILRUContainer
 	using value_type = VAL;
 
 	public:
+		ILRUContainer() = default;
+		ILRUContainer(const ILRUContainer&) = delete;
+		ILRUContainer& operator=(const ILRUContainer&) = delete;
+		ILRUContainer(ILRUContainer&&) = default;
+		ILRUContainer& operator=(ILRUContainer&&) = default;
 	/**
 		* @brief Get current size of the container
 	*/
