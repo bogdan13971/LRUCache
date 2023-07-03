@@ -1,0 +1,1 @@
+//needed for cmake to deduce CXX file types because project contains only headers

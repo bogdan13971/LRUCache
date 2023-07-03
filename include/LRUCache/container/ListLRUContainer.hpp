@@ -117,7 +117,7 @@ public:
 		return std::make_pair(lruPage.key, std::move(lruPage.value));
 	}
 
-	friend struct promoter::Promoter;
+	friend struct Promoter;
 };
 
 } // container
