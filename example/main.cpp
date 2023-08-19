@@ -82,6 +82,7 @@ int main()
 {
 	containers();
 	caches();
+	objects();
 	
 	return 0;
 }
